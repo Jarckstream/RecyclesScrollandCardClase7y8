@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclesScrollandCard</string>
+    <string name="btn_robot">Robot</string>
+    <string name="btn_leon">Leoncito</string>
+    <string name="btn_luna">Anochece</string>
+    <string name="btn_jungla">Hakuna Matata</string>
+    <string name="btn_arbol">Huele refrescante</string>
+</resources>

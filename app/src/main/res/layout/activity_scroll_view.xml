@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scroll">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_robot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/btn_robot"
+                android:onClick="Seleccion"
+                app:srcCompat="@mipmap/foto5" />
+
+            <ImageButton
+                android:id="@+id/btn_leon"
+                android:layout_width="match_parent"
+                android:layout_height="419dp"
+                android:contentDescription="@string/btn_leon"
+                android:onClick="Seleccion"
+                app:srcCompat="@mipmap/foto4" />
+
+            <ImageButton
+                android:id="@+id/btn_luna"
+                android:layout_width="match_parent"
+                android:layout_height="353dp"
+                android:contentDescription="@string/btn_luna"
+                android:onClick="Seleccion"
+                app:srcCompat="@mipmap/foto3" />
+
+            <ImageButton
+                android:id="@+id/btn_jungla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/btn_jungla"
+                android:onClick="Seleccion"
+                app:srcCompat="@mipmap/fondito2" />
+
+            <ImageButton
+                android:id="@+id/btn_arbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/btn_arbol"
+                android:onClick="Seleccion"
+                app:srcCompat="@mipmap/foto1" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
